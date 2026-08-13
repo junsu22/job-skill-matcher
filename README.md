@@ -15,7 +15,8 @@ Manually reading through every posting to check was slow. So I built this to sur
 - Shows a match rate badge at the top of the posting
 - Click the badge to see which skills matched and which didn't
 
-![screenshot](screenshot.png)
+![screenshot](screenshot_01.png)
+![screenshot](screenshot_02.png)
 
 ## Skills tracked
 

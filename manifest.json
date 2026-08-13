@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Job Skill Matcher",
+  "version": "1.0.0",
+  "description": "채용공고에서 요구 스킬을 추출하고 내 스킬과 매칭률을 보여줍니다.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.wanted.co.kr/wd/*",
+        "https://www.saramin.co.kr/zf_user/jobs/relay/view*"
+      ],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}
